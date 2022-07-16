@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@1,300&display=swap');
+
+:root {
+    --fuentep: 'Poppins'
+    --fuentebody: 'Abril Fatface'
+}
+
+
+
 *{
     margin:0;
     padding: 0;
@@ -5,12 +14,17 @@
 }
 
 body {
+    font-family: 'Abril Fatface';
     background-color: rgb(31, 31, 31);
     color: white;
+    
 }
 
 .contenedor {
-    margin: auto;
+    background-color: black;
+    margin: 2rem 2rem;
+    border: 1px solid white;
+    border-radius: 2rem;
 }
 
 img {
@@ -27,9 +41,11 @@ h2 {
 }
 
 p {
+    font-family: var(--fuentep);
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem;
+    text-transform: uppercase;
 }
 
 a {
@@ -62,3 +78,14 @@ header {
     padding: 2rem;
 }
  
+.box-all {
+    margin:auto;
+    background-color: transparent;
+    width: 60%;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.box-all:hover {
+    background-color: rgb(127, 74, 158);
+}
